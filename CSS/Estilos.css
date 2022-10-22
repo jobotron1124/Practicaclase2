@@ -10,18 +10,29 @@ h2.En2{
     
 
 }
-h3.En3{
-    
-    
-    
-    
+form {
+    margin: 40 auto;
+    width: 400px;
 
-}
-body{
-    
-    
-}
-{
-    
-    background-color:cornflowerblue;
-}
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+
+
+  }
+
+   .C:focus{
+    background-color:red;
+   }
+  .C{
+    background-color:aliceblue;
+  transition: background-color .5s;
+  }
+
+  
+  .C:hover {
+    background-color: gold;
+  }
+  form li + li {
+    margin-top: 1em;
+  }
