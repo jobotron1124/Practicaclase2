@@ -15,12 +15,11 @@
    <br><br><hr>
 </header>
 <body>
-    <h3 class="En3">
-        <mark>¿QUIEN ERES?</mark>
-       </h3>
+   
     <form action="/Formulario.html">
         
-            <br>
+      <fieldset>
+        <legend> <mark>¿QUIEN ERES?</mark></legend>
               <label  for="name">Nombre</label>
               <br>
               <input class="C" type="text" id="name" name="user_name">
@@ -71,16 +70,20 @@
                 </select>
             
               </p>
+              </fieldset>
             
-            
+              
+               
     </form>
     <body>
-        <h3 class="En3">
-            <mark>¿DE DONDE ERES?</mark>
-           </h3>
+       
         <form action="/Formulario.html">
             
-                <br>
+                
+                
+          <fieldset>
+            <legend> <mark>¿DE DONDE ERES?</mark></legend>
+                
                 
                   <label for="name">Ciudad</label>
                   <br>
@@ -109,11 +112,58 @@
                       <option>Brazil</option>
                     </select>
     
-                      
-                
+                  </form>
+                </fieldset>
+
                   </p>
-                
+                 
+                <form action="/Formulario.html">
+                    
+                       
+                  <fieldset>
+                    <legend> <mark>¿COMO QUIERES INICIAR SESION?</mark></legend>
+                          <label  for="name">Nombre de usuario</label>
+                          <br>
+                          <input class="C" type="text" id="name" name="user_name">
+                          <br>
+            
+                          <label for="mail">Contraseña</label>
+                          <br>
+                          <input class="C"type="text" id="lastname" name="user_name">
+                          <br>
+            
+                          <label for="msg">Vuelve a escribir la contraseña</label>
+                          <br>
+                          <input class="C"type="email" id="mail" name="user_mail">              <br>
+                       
                 
         </form>
+      </fieldset>
+
+    
+      <form action="/Formulario.html">
+        <fieldset>
+          <legend> <mark>CONDICIONES DE REGISTRO</mark></legend>
+          <p>
+
+              DESEO RECIBIR INFORMACION DE LA UNIVERSIDAD <br>
+        
+            <input type="radio" name="CONDICIONESDEREGISTRO" value="Unavezaldia"> Una vez al dia
+        
+            <input type="radio" name="CONDICIONESDEREGISTRO" value="Unavezalasemana"> Una vez a la semana
+        
+            <input type="radio" name="CONDICIONESDEREGISTRO" value="Unavezalmes"> Una vez al mes
+            <br>
+            <input type="checkbox" name="deportes"> 
+            Acepto el acuerdo de sevicios, la declaracion de privacidad y la declaracion de uso de cookies
+
+
+        
+        </form>
+      </fieldset>
+      <br>
+          <input class="D" type="submit" value="Crear cuenta">
+      
+
 </body>
 </html>
